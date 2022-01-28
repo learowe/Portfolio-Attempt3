@@ -124,6 +124,8 @@ body {
 
 .cardcontainer {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
