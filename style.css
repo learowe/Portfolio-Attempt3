@@ -122,11 +122,13 @@ body {
   text-align: center;
 }
 
+/* 
+why does this stop my desktop and mobile views from working but fixes the issue with the wonky boxes?
 .cardcontainer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .card {
   width: 350px;
