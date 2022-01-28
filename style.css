@@ -102,7 +102,6 @@ body {
   display: flex;
   text-transform: uppercase;
   font-weight: bold;
-  margin-left: 5vw;
   text-align: center;
   justify-content: center;
 }
@@ -123,13 +122,16 @@ body {
   text-align: center;
 }
 
+.cardcontainer {
+  display: flex;
+}
+
 .card {
   width: 350px;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 10px 10px 8px 10px #888888;
   display: inline-block;
   vertical-align: baseline;
-  margin: 10px;
 }
 
 .card:hover {
@@ -150,7 +152,7 @@ img {
 
 .category {
   font-size: 12px;
-  color: blue;
+  color: #700e0e;
   margin: 0px 0px 7px 0px;
 }
 
@@ -166,16 +168,17 @@ p {
 }
 
 .container {
-  width: 400px;
+  width: 500px;
   margin: auto;
   background-color: rgb(243, 243, 243);
   border-radius: 6px;
   margin-top: 30px;
   margin-bottom: 30px;
+  padding: 10px;
 }
 
 #contactForm {
-  padding: 25px 25px 25px 25px;
+  padding: 25px 50px 25px 25px;
 }
 
 input,
@@ -188,14 +191,15 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #1ac0f3;
+  background-color: #700e0e;
   padding: 14px 20px 14px 20px;
   cursor: pointer;
   color: white;
 }
 
 input[type="submit"]:hover {
-  background-color: fuchsia;
+  background-color: white;
+  color: #700e0e;
 }
 
 @media screen and (min-width: 400px) {
